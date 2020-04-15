@@ -11,4 +11,4 @@ Forked from [jellyfin/jellyfin-plugin-autoorganize](https://github.com/jellyfin/
     ```sh
     dotnet publish --configuration Release --output bin
     ```
-4. Place the resulting `.dll` file in a folder called `plugins/` under the program data directory or inside the portable install directory, service restart is required.
+4. Place the resulting `TwoCents.JellyfinOrganizeRule.dll` file in a folder called `plugins/` under the program data directory or inside the portable install directory, service restart is required.
